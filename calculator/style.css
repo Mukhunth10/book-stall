@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e0e0e0 ;
+}
+.container{
+    width: 250px;
+    height: 400px;
+    margin: 90px auto ;
+    box-shadow: inset 2px 2px 2px 5px#babacc, 
+                inset -5px -5px 10px#fff;
+                border-radius:14px ;
+}
+.box{
+    width: 250px;
+    margin: 20px auto;
+
+}
+#display{
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0 18px 20px;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px#babacc, 
+                inset -5px -5px 10px#fff;
+} 
+.btn{
+    margin: 25px 0 0 5px; 
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 8px;
+    background-color: rgb(214,214,214);
+}
+.aribtn{
+    color: #fff;
+    background:#000;
+}  
+.clrbtn{
+color:#fff ;
+background: red;
+}
